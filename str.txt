@@ -1,0 +1,12 @@
+social_media_backend/
+├── social_app/           # Main Django app
+│   ├── models.py         # UserProfile, Post, Like, Connection models
+│   ├── views.py          # All API views and endpoints
+│   ├── serializers.py    # DRF serializers
+│   ├── urls.py           # App URL configuration
+│   └── admin.py          # Admin interface (needs small fix)
+├── social_media_backend/ # Django project settings
+│   ├── settings.py       # Configured with DRF and Knox
+│   └── urls.py           # Main URL configuration
+├── requirements.txt      # All dependencies listed
+└── manage.py            # Django management script
